@@ -1,6 +1,6 @@
-import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './assets/css/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import HomePage from './pages/homePage';
