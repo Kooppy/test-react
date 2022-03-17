@@ -1,6 +1,7 @@
-import React, { Children } from 'react';
+import React from 'react';
 import Navb from '../components/nav';
 import Footer from '../components/footer';
+import FormContact from '../components/formContact';
 
 
 class MainLayout extends React.Component {
@@ -9,6 +10,7 @@ class MainLayout extends React.Component {
             <div className='App'>
                 <Navb />
                 {this.props.children}
+                <FormContact />
                 <Footer />
             </div>
         )
