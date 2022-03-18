@@ -1,5 +1,5 @@
 import React from 'react';
-import Navb from '../components/nav';
+import Navb from '../components/nav-mui';
 import Footer from '../components/footer';
 import FormContact from '../components/formContact';
 
